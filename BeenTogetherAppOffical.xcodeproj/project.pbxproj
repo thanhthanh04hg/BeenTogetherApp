@@ -3,35 +3,68 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0ECE29FC8346593E18A4CA8 /* Pods_BeenTogetherAppOffical.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7CF720D6C269125F219983 /* Pods_BeenTogetherAppOffical.framework */; };
+		FA0AA7192472ECDC00C95D46 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AA7182472ECDC00C95D46 /* SlideInTransition.swift */; };
+		FA0AA71C24767BDC00C95D46 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AA71B24767BDC00C95D46 /* Title.swift */; };
+		FA0AA726247A760700C95D46 /* SlideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AA725247A760700C95D46 /* SlideMenuViewController.swift */; };
+		FA405865248C83DF00DF5523 /* CDTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA405864248C83DF00DF5523 /* CDTabBarViewController.swift */; };
+		FA405867248C8DDE00DF5523 /* AddCDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA405866248C8DDE00DF5523 /* AddCDViewController.swift */; };
+		FA405869248C8DF600DF5523 /* MinusCDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA405868248C8DF600DF5523 /* MinusCDViewController.swift */; };
+		FA4058912494C27900DF5523 /* SetPasscodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4058902494C27900DF5523 /* SetPasscodeViewController.swift */; };
+		FA405895249534AB00DF5523 /* LockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA405894249534AB00DF5523 /* LockViewController.swift */; };
+		FA405899249541BF00DF5523 /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA405898249541BF00DF5523 /* LeftMenuViewController.swift */; };
+		FA4058A12496294200DF5523 /* ThemesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4058A02496294200DF5523 /* ThemesViewController.swift */; };
+		FA42AF422484A9A900C076E0 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA42AF402484A9A900C076E0 /* SwitchTableViewCell.swift */; };
+		FA42AF432484A9A900C076E0 /* SwitchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA42AF412484A9A900C076E0 /* SwitchTableViewCell.xib */; };
 		FA4EDD93245BC11D000A9C26 /* CaculateDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4EDD92245BC11D000A9C26 /* CaculateDateViewController.swift */; };
 		FA4EDDA02462B7EF000A9C26 /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4EDD9F2462B7EF000A9C26 /* TitleViewController.swift */; };
+		FA76818C248205C9000A7A17 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76818B248205C8000A7A17 /* SettingTableViewController.swift */; };
+		FA7C0FC0246B7F3B004AD2B6 /* RealmTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C0FBF246B7F3B004AD2B6 /* RealmTutorial.swift */; };
+		FA8BA824249710F600CEAE81 /* BT2015ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8BA823249710F600CEAE81 /* BT2015ViewController.swift */; };
+		FA8BA826249DA1CA00CEAE81 /* SelectColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8BA825249DA1CA00CEAE81 /* SelectColorViewController.swift */; };
 		FABCE2B124532D6200795BF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABCE2B024532D6200795BF8 /* AppDelegate.swift */; };
 		FABCE2B324532D6200795BF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABCE2B224532D6200795BF8 /* SceneDelegate.swift */; };
 		FABCE2B524532D6200795BF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABCE2B424532D6200795BF8 /* ViewController.swift */; };
-		FABCE2B824532D6200795BF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABCE2B624532D6200795BF8 /* Main.storyboard */; };
 		FABCE2BA24532D6400795BF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABCE2B924532D6400795BF8 /* Assets.xcassets */; };
 		FABCE2BD24532D6400795BF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABCE2BB24532D6400795BF8 /* LaunchScreen.storyboard */; };
 		FABCE2C624532F1D00795BF8 /* CollectionViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABCE2C424532F1D00795BF8 /* CollectionViewCell1.swift */; };
 		FABCE2C724532F1D00795BF8 /* CollectionViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = FABCE2C524532F1D00795BF8 /* CollectionViewCell1.xib */; };
 		FABCE2CA24532F2B00795BF8 /* CollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABCE2C824532F2B00795BF8 /* CollectionViewCell2.swift */; };
 		FABCE2CB24532F2B00795BF8 /* CollectionViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = FABCE2C924532F2B00795BF8 /* CollectionViewCell2.xib */; };
-		FABCE2CD24533C3900795BF8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABCE2CC24533C3900795BF8 /* FirstViewController.swift */; };
 		FABCE2CF2453431000795BF8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABCE2CE2453431000795BF8 /* MainViewController.swift */; };
-		FABCE2D12455247E00795BF8 /* MainSb.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABCE2D02455247E00795BF8 /* MainSb.storyboard */; };
+		FABCE2D12455247E00795BF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABCE2D02455247E00795BF8 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C7CF720D6C269125F219983 /* Pods_BeenTogetherAppOffical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeenTogetherAppOffical.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B8255638299AF8AE0E44BB /* Pods-BeenTogetherAppOffical.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeenTogetherAppOffical.release.xcconfig"; path = "Target Support Files/Pods-BeenTogetherAppOffical/Pods-BeenTogetherAppOffical.release.xcconfig"; sourceTree = "<group>"; };
+		63BCC8511C89A6AD24BA6CDF /* Pods-BeenTogetherAppOffical.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeenTogetherAppOffical.debug.xcconfig"; path = "Target Support Files/Pods-BeenTogetherAppOffical/Pods-BeenTogetherAppOffical.debug.xcconfig"; sourceTree = "<group>"; };
+		FA0AA7182472ECDC00C95D46 /* SlideInTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
+		FA0AA71B24767BDC00C95D46 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		FA0AA725247A760700C95D46 /* SlideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuViewController.swift; sourceTree = "<group>"; };
+		FA405864248C83DF00DF5523 /* CDTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDTabBarViewController.swift; sourceTree = "<group>"; };
+		FA405866248C8DDE00DF5523 /* AddCDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCDViewController.swift; sourceTree = "<group>"; };
+		FA405868248C8DF600DF5523 /* MinusCDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinusCDViewController.swift; sourceTree = "<group>"; };
+		FA4058902494C27900DF5523 /* SetPasscodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPasscodeViewController.swift; sourceTree = "<group>"; };
+		FA405894249534AB00DF5523 /* LockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockViewController.swift; sourceTree = "<group>"; };
+		FA405898249541BF00DF5523 /* LeftMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
+		FA4058A02496294200DF5523 /* ThemesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesViewController.swift; sourceTree = "<group>"; };
+		FA42AF402484A9A900C076E0 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		FA42AF412484A9A900C076E0 /* SwitchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchTableViewCell.xib; sourceTree = "<group>"; };
 		FA4EDD92245BC11D000A9C26 /* CaculateDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaculateDateViewController.swift; sourceTree = "<group>"; };
 		FA4EDD9F2462B7EF000A9C26 /* TitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
+		FA76818B248205C8000A7A17 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		FA7C0FBF246B7F3B004AD2B6 /* RealmTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmTutorial.swift; sourceTree = "<group>"; };
+		FA8BA823249710F600CEAE81 /* BT2015ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BT2015ViewController.swift; sourceTree = "<group>"; };
+		FA8BA825249DA1CA00CEAE81 /* SelectColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectColorViewController.swift; sourceTree = "<group>"; };
 		FABCE2AD24532D6200795BF8 /* BeenTogetherAppOffical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeenTogetherAppOffical.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABCE2B024532D6200795BF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FABCE2B224532D6200795BF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FABCE2B424532D6200795BF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FABCE2B724532D6200795BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FABCE2B924532D6400795BF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FABCE2BC24532D6400795BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FABCE2BE24532D6400795BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,9 +72,8 @@
 		FABCE2C524532F1D00795BF8 /* CollectionViewCell1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell1.xib; sourceTree = "<group>"; };
 		FABCE2C824532F2B00795BF8 /* CollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell2.swift; sourceTree = "<group>"; };
 		FABCE2C924532F2B00795BF8 /* CollectionViewCell2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell2.xib; sourceTree = "<group>"; };
-		FABCE2CC24533C3900795BF8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		FABCE2CE2453431000795BF8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		FABCE2D02455247E00795BF8 /* MainSb.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainSb.storyboard; sourceTree = "<group>"; };
+		FABCE2D02455247E00795BF8 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,30 +81,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0ECE29FC8346593E18A4CA8 /* Pods_BeenTogetherAppOffical.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04E9B635C287E0E8BC19F034 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63BCC8511C89A6AD24BA6CDF /* Pods-BeenTogetherAppOffical.debug.xcconfig */,
+				20B8255638299AF8AE0E44BB /* Pods-BeenTogetherAppOffical.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		39FBF6D33AAB44367C9AEA00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C7CF720D6C269125F219983 /* Pods_BeenTogetherAppOffical.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA0AA71A24767BC600C95D46 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				FA0AA71B24767BDC00C95D46 /* Title.swift */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
 		FA4EDD8F2458299B000A9C26 /* MainSb */ = {
 			isa = PBXGroup;
 			children = (
 				FABCE2CE2453431000795BF8 /* MainViewController.swift */,
-				FABCE2D02455247E00795BF8 /* MainSb.storyboard */,
+				FA405894249534AB00DF5523 /* LockViewController.swift */,
+				FABCE2D02455247E00795BF8 /* Main.storyboard */,
+				FA405864248C83DF00DF5523 /* CDTabBarViewController.swift */,
 				FA4EDD92245BC11D000A9C26 /* CaculateDateViewController.swift */,
+				FA405866248C8DDE00DF5523 /* AddCDViewController.swift */,
+				FA405868248C8DF600DF5523 /* MinusCDViewController.swift */,
+				FA0AA725247A760700C95D46 /* SlideMenuViewController.swift */,
+				FA76818B248205C8000A7A17 /* SettingTableViewController.swift */,
 				FA4EDD9F2462B7EF000A9C26 /* TitleViewController.swift */,
+				FA0AA7182472ECDC00C95D46 /* SlideInTransition.swift */,
+				FA42AF402484A9A900C076E0 /* SwitchTableViewCell.swift */,
+				FA42AF412484A9A900C076E0 /* SwitchTableViewCell.xib */,
+				FA4058902494C27900DF5523 /* SetPasscodeViewController.swift */,
+				FA405898249541BF00DF5523 /* LeftMenuViewController.swift */,
+				FA4058A02496294200DF5523 /* ThemesViewController.swift */,
+				FA8BA823249710F600CEAE81 /* BT2015ViewController.swift */,
+				FA8BA825249DA1CA00CEAE81 /* SelectColorViewController.swift */,
 			);
 			path = MainSb;
-			sourceTree = "<group>";
-		};
-		FA4EDD90245829AE000A9C26 /* intialSb */ = {
-			isa = PBXGroup;
-			children = (
-				FABCE2B424532D6200795BF8 /* ViewController.swift */,
-				FABCE2B624532D6200795BF8 /* Main.storyboard */,
-			);
-			path = intialSb;
 			sourceTree = "<group>";
 		};
 		FA4EDD91245829CA000A9C26 /* collectonViewCell */ = {
@@ -86,11 +149,24 @@
 			path = collectonViewCell;
 			sourceTree = "<group>";
 		};
+		FA7C0FBE246B7EFE004AD2B6 /* IntialController */ = {
+			isa = PBXGroup;
+			children = (
+				FABCE2B224532D6200795BF8 /* SceneDelegate.swift */,
+				FABCE2B024532D6200795BF8 /* AppDelegate.swift */,
+				FABCE2B424532D6200795BF8 /* ViewController.swift */,
+				FA7C0FBF246B7F3B004AD2B6 /* RealmTutorial.swift */,
+			);
+			path = IntialController;
+			sourceTree = "<group>";
+		};
 		FABCE2A424532D6200795BF8 = {
 			isa = PBXGroup;
 			children = (
 				FABCE2AF24532D6200795BF8 /* BeenTogetherAppOffical */,
 				FABCE2AE24532D6200795BF8 /* Products */,
+				04E9B635C287E0E8BC19F034 /* Pods */,
+				39FBF6D33AAB44367C9AEA00 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,12 +181,10 @@
 		FABCE2AF24532D6200795BF8 /* BeenTogetherAppOffical */ = {
 			isa = PBXGroup;
 			children = (
-				FA4EDD90245829AE000A9C26 /* intialSb */,
+				FA0AA71A24767BC600C95D46 /* Modal */,
+				FA7C0FBE246B7EFE004AD2B6 /* IntialController */,
 				FA4EDD8F2458299B000A9C26 /* MainSb */,
 				FA4EDD91245829CA000A9C26 /* collectonViewCell */,
-				FABCE2B224532D6200795BF8 /* SceneDelegate.swift */,
-				FABCE2B024532D6200795BF8 /* AppDelegate.swift */,
-				FABCE2CC24533C3900795BF8 /* FirstViewController.swift */,
 				FABCE2B924532D6400795BF8 /* Assets.xcassets */,
 				FABCE2BB24532D6400795BF8 /* LaunchScreen.storyboard */,
 				FABCE2BE24532D6400795BF8 /* Info.plist */,
@@ -125,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FABCE2C124532D6400795BF8 /* Build configuration list for PBXNativeTarget "BeenTogetherAppOffical" */;
 			buildPhases = (
+				AD3DD4B2D5A44E04718E7AEF /* [CP] Check Pods Manifest.lock */,
 				FABCE2A924532D6200795BF8 /* Sources */,
 				FABCE2AA24532D6200795BF8 /* Frameworks */,
 				FABCE2AB24532D6200795BF8 /* Resources */,
+				328E4D98419F67F45DBFBB41 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -178,43 +254,91 @@
 			files = (
 				FABCE2C724532F1D00795BF8 /* CollectionViewCell1.xib in Resources */,
 				FABCE2BD24532D6400795BF8 /* LaunchScreen.storyboard in Resources */,
-				FABCE2D12455247E00795BF8 /* MainSb.storyboard in Resources */,
+				FABCE2D12455247E00795BF8 /* Main.storyboard in Resources */,
+				FA42AF432484A9A900C076E0 /* SwitchTableViewCell.xib in Resources */,
 				FABCE2BA24532D6400795BF8 /* Assets.xcassets in Resources */,
-				FABCE2B824532D6200795BF8 /* Main.storyboard in Resources */,
 				FABCE2CB24532F2B00795BF8 /* CollectionViewCell2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		328E4D98419F67F45DBFBB41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeenTogetherAppOffical/Pods-BeenTogetherAppOffical-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeenTogetherAppOffical/Pods-BeenTogetherAppOffical-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeenTogetherAppOffical/Pods-BeenTogetherAppOffical-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD3DD4B2D5A44E04718E7AEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeenTogetherAppOffical-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FABCE2A924532D6200795BF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA76818C248205C9000A7A17 /* SettingTableViewController.swift in Sources */,
 				FABCE2CF2453431000795BF8 /* MainViewController.swift in Sources */,
+				FA42AF422484A9A900C076E0 /* SwitchTableViewCell.swift in Sources */,
+				FA4058912494C27900DF5523 /* SetPasscodeViewController.swift in Sources */,
+				FA405867248C8DDE00DF5523 /* AddCDViewController.swift in Sources */,
+				FA405899249541BF00DF5523 /* LeftMenuViewController.swift in Sources */,
+				FA405869248C8DF600DF5523 /* MinusCDViewController.swift in Sources */,
+				FA0AA726247A760700C95D46 /* SlideMenuViewController.swift in Sources */,
 				FABCE2C624532F1D00795BF8 /* CollectionViewCell1.swift in Sources */,
 				FABCE2B524532D6200795BF8 /* ViewController.swift in Sources */,
+				FA0AA71C24767BDC00C95D46 /* Title.swift in Sources */,
+				FA405895249534AB00DF5523 /* LockViewController.swift in Sources */,
 				FABCE2CA24532F2B00795BF8 /* CollectionViewCell2.swift in Sources */,
+				FA8BA826249DA1CA00CEAE81 /* SelectColorViewController.swift in Sources */,
+				FA4058A12496294200DF5523 /* ThemesViewController.swift in Sources */,
+				FA405865248C83DF00DF5523 /* CDTabBarViewController.swift in Sources */,
 				FA4EDD93245BC11D000A9C26 /* CaculateDateViewController.swift in Sources */,
+				FA0AA7192472ECDC00C95D46 /* SlideInTransition.swift in Sources */,
 				FA4EDDA02462B7EF000A9C26 /* TitleViewController.swift in Sources */,
-				FABCE2CD24533C3900795BF8 /* FirstViewController.swift in Sources */,
+				FA7C0FC0246B7F3B004AD2B6 /* RealmTutorial.swift in Sources */,
 				FABCE2B124532D6200795BF8 /* AppDelegate.swift in Sources */,
 				FABCE2B324532D6200795BF8 /* SceneDelegate.swift in Sources */,
+				FA8BA824249710F600CEAE81 /* BT2015ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FABCE2B624532D6200795BF8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FABCE2B724532D6200795BF8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FABCE2BB24532D6400795BF8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -342,6 +466,7 @@
 		};
 		FABCE2C224532D6400795BF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63BCC8511C89A6AD24BA6CDF /* Pods-BeenTogetherAppOffical.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -359,6 +484,7 @@
 		};
 		FABCE2C324532D6400795BF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20B8255638299AF8AE0E44BB /* Pods-BeenTogetherAppOffical.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

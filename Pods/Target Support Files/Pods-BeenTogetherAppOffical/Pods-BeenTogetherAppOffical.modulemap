@@ -1,0 +1,6 @@
+framework module Pods_BeenTogetherAppOffical {
+  umbrella header "Pods-BeenTogetherAppOffical-umbrella.h"
+
+  export *
+  module * { export * }
+}

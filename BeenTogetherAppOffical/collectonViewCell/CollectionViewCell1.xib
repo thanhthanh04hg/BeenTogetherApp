@@ -22,8 +22,8 @@
                             <action selector="onChangedDay:" destination="gTV-IL-0wX" eventType="valueChanged" id="TKH-1G-F0A"/>
                         </connections>
                     </datePicker>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1days" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FQQ-Ri-7Ax">
-                        <rect key="frame" x="144.5" y="346.5" width="45.5" height="24"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FQQ-Ri-7Ax">
+                        <rect key="frame" x="148.5" y="346.5" width="37.5" height="24"/>
                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
                         <color key="textColor" red="0.91980725529999996" green="0.5745138702" blue="0.49714481420000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <nil key="highlightedColor"/>

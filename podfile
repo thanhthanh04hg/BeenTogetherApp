@@ -1,0 +1,8 @@
+target 'BeenTogetherAppOffical' do
+  use_frameworks!
+  pod 'RealmSwift'
+  pod 'NavigationDrawer'
+  pod 'SlideMenuDovi'
+  pod 'SCLAlertView'
+  pod 'SwiftHSVColorPicker'
+end

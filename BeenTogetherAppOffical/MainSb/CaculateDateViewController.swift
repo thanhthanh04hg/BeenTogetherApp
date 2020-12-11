@@ -7,17 +7,17 @@
 //
 
 import UIKit
-
+import SCLAlertView
 class CaculateDateViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
     }
-    @IBAction func selectDatePicker(_ sender: Any) {
-        datePickerAleart()
+    @IBAction func ondisplayMenu(_ sender: Any) {
+        slideMenuController()?.openSlideMenuLeft()
     }
+    
     func datePickerAleart(){
         let datePicker = UIDatePicker()
         datePicker.datePickerMode = .date
@@ -28,7 +28,6 @@ class CaculateDateViewController: UIViewController {
             let dateFormatter = DateFormatter()
             dateFormatter.dateFormat = "dd-MM-yyyy"
             let dateString = dateFormatter.string(from: datePicker.date)
-            print(dateString)
         }
         
         let cancel = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
@@ -37,8 +36,7 @@ class CaculateDateViewController: UIViewController {
         alert.addAction(cancel)
         
         present(alert, animated: true, completion: nil)
-        
-            
+
         
     }
 

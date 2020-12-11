@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-BeenTogetherAppOffical/Pods-BeenTogetherAppOffical-frameworks.sh
+${BUILT_PRODUCTS_DIR}/NavigationDrawer/NavigationDrawer.framework
+${BUILT_PRODUCTS_DIR}/Realm/Realm.framework
+${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework
+${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework
+${BUILT_PRODUCTS_DIR}/SlideMenuDovi/SlideMenuDovi.framework
+${BUILT_PRODUCTS_DIR}/SwiftHSVColorPicker/SwiftHSVColorPicker.framework

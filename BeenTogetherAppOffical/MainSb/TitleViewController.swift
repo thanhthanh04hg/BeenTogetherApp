@@ -22,6 +22,7 @@ class TitleViewController: UIViewController , TitleDelegate  {
         super.viewDidLoad()
         changeTitleLabel.text = strLabel
         text.text = strText
+        
     }
     
     @IBAction func ok(_ sender: Any) {

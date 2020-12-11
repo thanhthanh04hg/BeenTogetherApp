@@ -1,0 +1,6 @@
+framework module SlideMenuDovi {
+  umbrella header "SlideMenuDovi-umbrella.h"
+
+  export *
+  module * { export * }
+}
